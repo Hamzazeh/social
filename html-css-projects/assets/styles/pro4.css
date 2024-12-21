@@ -1,0 +1,104 @@
+
+/*---------- global styles ---------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    text-decoration: none;
+    transition: 0.15s ease;
+}
+
+body{
+    /*background: #e5e7eb;*/
+    background: linear-gradient(to bottom, #faf9f9, #a1a1a1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*---------- profile ---------*/
+
+.profile{
+    text-align: center;
+}
+
+.profile img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.profile p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+/*---------- social links ---------*/
+
+.social-links{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    width: 350px;
+}
+
+.social-links img{
+    width: 35px;
+}
+
+.social-links a{
+    color: #000d1a;
+}
+
+/*---------- links ---------*/
+
+.link .more{
+    width: 13px;
+}
+
+.link {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 9px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*---------- links hover ---------*/
+
+.link:hover, .link:active{
+    background: #f1f1f1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .2);
+}
+
+
+/*---------- responsive ---------*/
+
+@media (max-width: 600px) {
+    .social-links{
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .social-links img{
+        width: 30px;
+    }
+
+    .link .more{
+        width: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .profile p{
+        margin-bottom: 60px;
+    }
+}
+

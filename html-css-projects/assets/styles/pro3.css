@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    transition: 0.15s;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    margin-bottom: 200px;
+}
+
+.logo{
+    color: #6666ff;
+
+}
+
+nav{
+    display: flex;
+}
+
+nav button{
+    margin-left: 18px;
+    background: #6666ff;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 9px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-btn2:hover{
+    opacity: 0.7;
+}
+
+.header-btn2:active{
+    opacity: 0.5;
+}
+
+.header-btn{
+    background: #ffffff;
+    color: #6666ff;
+    border: 1px solid #6666ff;
+    padding: 8px 19px;
+}
+
+.header-btn:hover{
+    background: #6666ff;
+    color: #ffffff;
+}
+
+.header-btn:active{
+    opacity: 0.5;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text {
+    display: flex;
+    width: 550px;
+    height: 100px;
+    margin-bottom: 25px;
+    
+
+}
+
+.text h1{
+    text-align: center;
+    line-height: 1.2;
+    font-size: 48px;
+    
+}
+
+.word{
+    background: #8533ff;
+    color: #ffffff;
+    padding: 0px 9px;
+}
+
+.text img{
+    width: 40px;
+}
+
+
+
+main p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.links-btn{
+    display: flex;
+    margin-top: 30px;
+}
+
+.links-btn a{
+    text-decoration: none;
+    background: #6666ff;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 12px;
+    padding: 9px 20px;
+    border-radius: 5px;
+    
+}
+
+.links-btn .link{
+    background: #ffffff;
+    color: #6666ff;
+    border: 1px solid #6666ff;
+    
+}
+
+.get:hover{
+    opacity: 0.8;
+}
+
+.get:active{
+    opacity: 0.6;
+}
+
+.link:hover{
+    background: #6666ff;
+    color: #ffffff;
+    border: 1px solid #6666ff;
+}
+
+.link:active{
+    opacity: 0.6;
+}
+
+
+
+@media (max-width: 750px) {
+    main{
+        padding: 0px 40px;
+    }
+
+    main p{
+        font-size: 12px;
+    }
+
+    .text{
+        width: 350px;
+    }
+
+    .text h1{
+        font-size: 30px;
+    }
+
+    
+
+
+}
+
+
+
+@media (max-width: 450px) {
+
+
+    header{
+        margin: 10px 10px;
+        margin-bottom: 150px;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+
+    .header-btn2{
+        padding: 4px 12px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .header-btn{
+        padding: 3px 11px;
+        font-size: 12px;
+    }
+
+
+    main{
+        padding: 0px 50px;
+    }
+
+    main p{
+        font-size: 11px;
+    }
+
+    .text{
+        width: 320px;
+    }
+
+    .text h1{
+        font-size: 25px;
+    }
+
+
+    .links-btn a{
+        padding: 6px 15px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    
+
+
+}
+
